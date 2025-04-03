@@ -14,25 +14,3 @@ document.querySelectorAll(".news-update").forEach(news => {
       });
   }
  });
-// // JavaScript to Toggle Dark Mode
-// document.addEventListener("DOMContentLoaded", function () {
-//   const toggleSwitch = document.getElementById("darkModeToggle");
-//   const body = document.body;
-
-//   // Check if Dark Mode was enabled before
-//   if (localStorage.getItem("dark-mode") === "enabled") {
-//       body.classList.add("dark-mode");
-//       toggleSwitch.checked = true; // Keep toggle switch ON
-//   }
-
-//   // Toggle Dark Mode on checkbox click
-//   toggleSwitch.addEventListener("change", function () {
-//       if (this.checked) {
-//           body.classList.add("dark-mode");
-//           localStorage.setItem("dark-mode", "enabled");
-//       } else {
-//           body.classList.remove("dark-mode");
-//           localStorage.setItem("dark-mode", "disabled");
-//       }
-//   });
-// });
